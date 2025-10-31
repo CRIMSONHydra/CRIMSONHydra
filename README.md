@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Naverdo Sandeep and I'm a CS student, from Bangalore, India</h2>
+<h2 align="left">Hi 👋! My name is Naverdo Sandeep (Navi) and I'm a CS student, from Bangalore, India</h2>
 
 ###
 
