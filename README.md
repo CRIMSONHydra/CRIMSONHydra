@@ -1,80 +1,69 @@
-<h2 align="left">Hi 👋! My name is Naverdo Sandeep (Navi) and I'm a CS student, from Bangalore, India</h2>
+<div align="center">
 
-###
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0d1117,100:dc143c&text=Navi&fontColor=ffffff&fontSize=70&fontAlignY=38&desc=Naverdo%20Sandeep%20%C2%B7%20CS%20student%20%C2%B7%20Bangalore%2C%20India&descAlignY=60&descSize=18" alt="Navi — Naverdo Sandeep" />
+
+<a href="https://github.com/CRIMSONHydra"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=DC143C&center=true&vCenter=true&width=600&lines=Building+AI+tools+%26+full-stack+apps;Competitive+programming+%C2%B7+Linux;Exploring+agents+%26+RL+environments" alt="Typing intro" /></a>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/naverdo-sandeep"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/CRIMSONHydra?tab=followers"><img src="https://img.shields.io/github/followers/CRIMSONHydra?style=flat-square&logo=github&color=0d1117&labelColor=0d1117&logoColor=white" alt="Followers" /></a>
+<img src="https://komarev.com/ghpvc/?username=CRIMSONHydra&style=flat-square&color=dc143c&label=PROFILE+VIEWS" alt="Profile views" />
+
+</div>
+
+<br/>
+
+## 👋 About
+
+- 🎓 CS student based in Bangalore, India
+- 🔭 Working on AI tooling: RL environments, LLM-powered pipelines and Claude Code plugins
+- ⚡ I like clean backends, fast frontends and anything that automates a boring task
+- 🏆 Competitive programming on the side
+
+<br/>
+
+## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CRIMSONHydra&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=CRIMSONHydra&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=CRIMSONHydra&locale=en&mode=weekly&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CRIMSONHydra&area=true" height="150" alt="activity-graph graph"  />
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,js,ts,react,nodejs,html,css,java,c,cpp,go&perline=11" alt="Languages and frameworks" /></a>
+<br/>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,git,linux,numpy,pandas,opencv,blender&perline=9" alt="Tools, data and databases" /></a>
+
 </div>
 
-###
+<br/>
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/CRIMSONHydra/count.svg?"  />
-</div>
+## 🚀 Featured Projects
 
-###
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/CRIMSONHydra/lecture-notes-plugin"><b>📝 lecture-notes-plugin</b></a><br/>
+      <sub>Claude Code plugin that turns lecture transcripts, recordings and slides into Basic and Advanced PDF notes.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/CRIMSONHydra/Scoreza"><b>🎯 Scoreza</b></a><br/>
+      <sub>RL environment for training agentic AI models to score student assignments.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/CRIMSONHydra/stocker"><b>📈 stocker</b></a><br/>
+      <sub>Reads news articles and past price graphs to train an AI model that predicts stock moves.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/CRIMSONHydra/cp-leaderboard"><b>🏁 cp-leaderboard</b></a><br/>
+      <sub>Live ratings and rating changes for users across competitive coding platforms.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+    </td>
+  </tr>
+</table>
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="30" alt="go logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="30" alt="blender logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" height="30" alt="kaggle logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="30" alt="numpy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="pandas logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="30" alt="opencv logo"  />
-</div>
+<br/>
 
-###
-
-<img align="right" height="150" src="https://i.gifer.com/2GU.gif"  />
-
-###
-
-<div align="left">
-  <a href="www.linkedin.com/in/naverdo-sandeep" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/CRIMSONHydra/CRIMSONHydra/output/snake.svg" alt="Snake animation" />
-
-###
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:dc143c,100:0d1117&section=footer" alt="" />
