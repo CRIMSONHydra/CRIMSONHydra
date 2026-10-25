@@ -1,12 +1,16 @@
 """Rewrite the TOP_REPOS block in README.md from the owner's public repos."""
 import json
+import math
 import os
 import re
 import subprocess
 import urllib.parse
+from datetime import datetime, timedelta, timezone
 
 OWNER = os.environ.get("GITHUB_REPOSITORY_OWNER", "CRIMSONHydra")
 COUNT = 6
+HALF_LIFE_DAYS = 60   # a commit loses half its weight every 60 days
+WINDOW_DAYS = 365     # ignore commits older than this
 COLORS = {
     "Python": "3776AB", "JavaScript": "F7DF1E", "TypeScript": "3178C6",
     "Java": "ED8B00", "C++": "00599C", "Go": "00ADD8", "Shell": "4EAA25",
@@ -21,11 +25,32 @@ repos = [
     and r["name"].lower() != OWNER.lower()
     and not r["name"].lower().startswith("temp")
 ]
-# Described repos first, then stars, then most recently pushed.
-repos.sort(
-    key=lambda r: (bool(r["description"]), r["stargazers_count"], r["pushed_at"]),
-    reverse=True,
-)
+
+NOW = datetime.now(timezone.utc)
+SINCE = (NOW - timedelta(days=WINDOW_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def score(repo):
+    """Sum of recency-decayed weights over the owner's commits in the window."""
+    out = subprocess.run(
+        ["gh", "api", "--paginate",
+         f"repos/{OWNER}/{repo['name']}/commits?author={OWNER}&since={SINCE}&per_page=100",
+         "--jq", ".[].commit.author.date"],
+        capture_output=True, text=True,
+    )
+    if out.returncode != 0:  # e.g. empty repository
+        return 0.0
+    total = 0.0
+    for d in out.stdout.split():
+        age = (NOW - datetime.fromisoformat(d.replace("Z", "+00:00"))).total_seconds() / 86400
+        total += math.exp(-math.log(2) * age / HALF_LIFE_DAYS)
+    return total
+
+
+for r in repos:
+    r["score"] = score(r)
+repos = [r for r in repos if r["score"] > 0]
+repos.sort(key=lambda r: (r["score"], r["stargazers_count"]), reverse=True)
 
 
 def badge(label, color, logo=None):

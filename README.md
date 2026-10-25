@@ -47,33 +47,33 @@
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/lecture-notes-plugin?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/CRIMSONHydra/cp-leaderboard"><b>cp-leaderboard</b></a><br/>
-      <sub>Track different users live rating and changes across various competitive coding platforms</sub><br/><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/cp-leaderboard?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
+      <a href="https://github.com/CRIMSONHydra/story-bytes"><b>story-bytes</b></a><br/>
+      <sub>No description yet.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square" alt="TypeScript" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/story-bytes?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/CRIMSONHydra/Devops-capstone"><b>Devops-capstone</b></a><br/>
+      <sub>No description yet.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/Devops-capstone?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
+    </td>
     <td width="50%" valign="top">
       <a href="https://github.com/CRIMSONHydra/stocker"><b>stocker</b></a><br/>
       <sub>Stalk news articles and past graphs to train an AI model to make financial predictions on stocks</sub><br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/stocker?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CRIMSONHydra/Scoreza"><b>Scoreza</b></a><br/>
-      <sub>RL env to train agentic AI models on scoring students assignments </sub><br/><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/Scoreza?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
-    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/CRIMSONHydra/stock-portfolio"><b>stock-portfolio</b></a><br/>
-      <sub>Scaler Webdev Portfolio Project</sub><br/><br/>
-      <img src="https://img.shields.io/badge/EJS-555555?style=flat-square" alt="EJS" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/stock-portfolio?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
+      <a href="https://github.com/CRIMSONHydra/cp-leaderboard"><b>cp-leaderboard</b></a><br/>
+      <sub>Track different users live rating and changes across various competitive coding platforms</sub><br/><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square" alt="JavaScript" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/cp-leaderboard?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/CRIMSONHydra/3jsSpace"><b>3jsSpace</b></a><br/>
-      <sub>3D Visualization of Space Data using three.js and NASA APIs</sub><br/><br/>
-      <img src="https://img.shields.io/github/stars/CRIMSONHydra/3jsSpace?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
+      <a href="https://github.com/CRIMSONHydra/AI-Procurement-Replacement-Copilot"><b>AI-Procurement-Replacement-Copilot</b></a><br/>
+      <sub>No description yet.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python" /> <img src="https://img.shields.io/github/stars/CRIMSONHydra/AI-Procurement-Replacement-Copilot?style=flat-square&color=dc143c&label=%E2%98%85" alt="stars" />
     </td>
   </tr>
 </table>
